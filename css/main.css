@@ -21,6 +21,7 @@ body {
 }
 
 .robot {
+  height: 250px;
   width: 320px;
   position: absolute;
   display: block;
@@ -30,19 +31,16 @@ body {
   max-width: 45em;
 }
 
-.robot-body {
-  width: 320px;
-}
-
 .robot-head-left {
   float: left;
   position:absolute;
   left: 11%;
-  bottom: 6%;
+  top: 31%;
   display: inline-block;
 }
 
 .robot-body {
+  width: 320px;
   float: left;
   position: absolute;
   left: 0;
@@ -63,7 +61,7 @@ body {
   float: right;
   position: absolute;
   display: inline-block;
-  bottom: 6%;
+  top: 31%;
   left: 50%;
 }
   
